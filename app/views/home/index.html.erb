@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>게시판 입니다.</h1>
+    <form>
+      <div class="form-group">
+        <label for="title">이름</label>
+        <input type="text" class="form-control" name="title" placeholder="이름을 적어주세요">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">하고싶은 말</label>
+        <textarea class="form-control" name="content" rows="3" placeholder="글을 입력해주세요"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">당신의 번호</label>
+        <input type="text" class="form-control" name="num" placeholder="xx xx xx xx xx xx">
+      </div>
+      <button type="submit" class="btn btn-default" formaction="/write" formmethod="GET">전송</button> 
+      <!--<button type="submit" class="btn btn-default" formaction="/list" formmethod="GET">리스트로</button>-->
+    </form>
+</div>
